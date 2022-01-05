@@ -1,0 +1,3 @@
+R5T.D0111.D001.Base - Service definitions for IGitIgnoreTemplateFilePathProvider and related services.
+
+GOALS:

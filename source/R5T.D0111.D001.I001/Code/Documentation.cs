@@ -1,10 +1,10 @@
 using System;
 
 
-namespace R5T.D0111
+namespace R5T.D0111.D001.I001
 {
     /// <summary>
-    /// Source control repository related miscellaneous services.
+    /// Default implementation for Basic implementations..
     /// </summary>
     public static class Documentation
     {
