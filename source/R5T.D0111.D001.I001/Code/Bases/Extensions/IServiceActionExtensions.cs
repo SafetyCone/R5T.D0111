@@ -12,7 +12,7 @@ namespace R5T.D0111.D001.I001
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="DefaultGitIgnoreTemplateFilePathProvider"/> implementation of <see cref="IGitIgnoreTemplateFilePathProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="DefaultGitIgnoreTemplateFilePathProvider"/> implementation of <see cref="IGitIgnoreTemplateFilePathProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IGitIgnoreTemplateFilePathProvider> AddDefaultGitIgnoreTemplateFilePathProviderAction(this IServiceAction _,
             IServiceAction<IExecutableDirectoryPathProvider> executableDirectoryPathProviderAction,
